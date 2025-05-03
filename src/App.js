@@ -31,6 +31,7 @@ import SearchBarN from './Components/SearchBarN';
 import Feedback from './Components/Feedback';
 import PrivateRoute from './Components/PrivateRoutes';
 import UserProfile from './Components/UserProfile';
+
 import LogInPage from './Components/LogInPage';
 
 function App() {
