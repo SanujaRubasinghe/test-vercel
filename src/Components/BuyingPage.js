@@ -158,7 +158,7 @@ const BuyingPage = () => {
 
   return (
     <div className="buying-page">
-    <LoadScript googleMapsApiKey={googleMapsApiKey} libraries={libraries}>
+    <LoadScript googleMapsApiKey='AIzaSyANZfEI3ADTKjUBTpQ_QB9ToxsV-i1J6v8' libraries={libraries}>
       <form className="billing-details" onSubmit={handleSubmit}>
         <h2>Billing Details</h2>
         <div className="form-group">
