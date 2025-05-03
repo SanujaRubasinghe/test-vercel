@@ -11,7 +11,7 @@ function LogInPage() {
         e.preventDefault()
         try {
             await login(user)
-            window.location.href = '/profile'
+            // window.location.href = '/profile'
         } catch (err) {
             alert(err.response.data.error)
         }
