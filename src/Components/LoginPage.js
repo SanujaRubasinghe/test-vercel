@@ -19,7 +19,7 @@ function LogInPage() {
 
     return (
         <div>
-            <h1>Welcome back!</h1>
+            <h1>Welcome back to New Liyanage Hardware!</h1>
             <form onSubmit={handleSubmit}>
                 <input name="username" onChange={handleChange} placeholder="Username" required />
                 <input name="password" type="password" onChange={handleChange} placeholder="Password" required />
